@@ -1,24 +1,15 @@
 body
 
 {
-    color: #333;
+    color: #1e1f24;
+    background: #333;
     text-align: center;
-    font-family: "CURIEL";
+    font-family: "Arial";
     font-size: 16px;
     margin: 1cm 1cm 1cm 1cm;
     padding:0;
 
     
-}
-#cabecera
-{
-    background: #33A;
-    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 5);
-    color: white;
-    font-weight: bold;
-    margin: 0;
-    padding: 0.5cm;
-    font-size: 0.8cm;
 }
 #container
 {
@@ -31,24 +22,39 @@ body
     border-radius: 30px;
     
 }
-#container h1
-{
-
-    font-size: 20px;
+#cabecera{
+    background: #37488b;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 5);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+    
 }
-#tegline
-{
+
+#cabecera #logo{
+
+    width: 30px;
+    vertical-align: middle;
+}
+#cabecera #tegline{
     padding: 0 0 0 1cm;
     font-weight: normal;
     font-size: 0.8cm;
 }
 
 
+#container h1
+{
 
+    font-size: 20px;
+}
 #post {
 
-    margin-bottom: 50px;
+    background: white;
+    padding: 1em;
 }
+
 .footer {
     width: 100%;
     border-radius: 30px;
@@ -58,5 +64,4 @@ body
     text-align: center;
     background-color: #777;
     color: white;
-    
 }
