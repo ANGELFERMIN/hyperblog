@@ -5,7 +5,7 @@ body
     text-align: center;
     font-family: "CURIEL";
     font-size: 16px;
-    margin: 0;
+    margin: 1cm 1cm 1cm 1cm;
     padding:0;
 
     
@@ -20,25 +20,43 @@ body
     padding: 0.5cm;
     font-size: 0.8cm;
 }
+#container
+{
+    width: 70%;
+    padding: 1cm  1cm 0.1cm 1cm;
+    text-align: left;
+    margin-bottom: 0px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    border-radius: 30px;
+    
+}
+#container h1
+{
 
+    font-size: 20px;
+}
 #tegline
 {
     padding: 0 0 0 1cm;
     font-weight: normal;
     font-size: 0.8cm;
 }
-#container
-{
-    width: 70%;
-    padding: 1cm;
-    text-align: left;
-    border: 1px solid #000;
-    margin: 0 auto;
- 
+
+
+
+#post {
+
+    margin-bottom: 50px;
 }
-
-#container h1
-{
-
-    font-size: 20px;
+.footer {
+    width: 100%;
+    border-radius: 30px;
+    margin-top:50px;
+    padding: 0;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #777;
+    color: white;
+    
 }
